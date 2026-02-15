@@ -1,0 +1,18 @@
+Column Names:
+PassengerId, Survived, Pclass, Name, Sex, Age,
+SibSp, Parch, Ticket, Fare, Cabin, Embarked
+
+
+Data Types:
+
+Data Type	                Columns
+int64	                    PassengerId, Survived, Pclass, SibSp, Parch
+float64	                    Age, Fare
+object (categorical/text)	Name, Sex, Ticket, Cabin, Embarked
+
+Missing Values (Nulls)
+Column	        Missing Values
+Age	            177
+Cabin       	687
+Embarked	    2
+All others	    0
